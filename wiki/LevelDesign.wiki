@@ -1,0 +1,167 @@
+= Level design =
+----
+This page contains the material concerning the level design. Early brainstorms, ideas and final designs.
+
+== Unity Dimensions ==
+
+1 unit = 1 meter
+
+|| Wall thickness || 0.25u ||
+|| Doorway (height) || 2.0u ||
+|| Doorway (width) || 1.0u ||
+|| Vertical step (stairs) || 0.8u ||
+|| Horizontal step (stairs) || 0.12u ||
+|| Avg. room height || 5.0u ||
+|| Avg. room width/depth || 10.0u ||
+
+
+== Ideas ==
+----
+We have divided the airship in four superior sections: the lower deck, middle deck, upper deck and the exterior of the ship.
+
+Each different deck are divided into smaller rooms all of them having different types of puzzles and challenges. Some physic based some logic based. We aim at having a diversity in the level design so that the player is challenged to a point where he feels accomplishment when solving a puzzle yet never be too hard or complex so that the player gives up trying to complete the game. 
+Also in the level design we aim at changing the pace between very fast paced stress moments and more calm pause-moments so the player can get time to breathe and prepare for the next puzzle.
+
+
+== Pacing ==
+----
+Type of Pacing - Pace Magnitude
+Scripted Cinematic Event - High
+Puzzle - Medium/Low
+Vista - Low
+Athletics - High
+
+== Lower deck ==
+----
+=== Prison/Starting Area === 
+A part of the cargo hold with a locked door. The challenge of this room is to learn how to move, how to do certain actions like move crate, jump, grab ledge, pull up and crouch in ventilation system. The vent system lead to a small 'pause' room from where the player must grap up to another vent, crawl through that and into another small room where he is required to use 'chain pull' to enter the next room.
+
+_Assets for Starting area_: window, crate, grappable air-vent, pipe, door, lamp/lightsource.
+=== Cargo Hold ===
+Big room, holds crates. Cargo room divided in two different sections. In the first room the player will learn to first do a chain-slide and into the big room with a locked door and a big crate. (that starts to seesaw from one side to the other). The big crate, the player observes smashes a smaller object when the room is seesawing. The player must place the crate in a specific place in order for the crate to open the door at the end of the level. The player must hold on to something when the ship is rotating, else he will be killed and he must not stand in front of the crate either.
+
+Next room is the real cargo room with a 'labyrinth' of crates and some bearing pillars here and there. At a certain point here the ship starts to rotate 90 degrees and the player must stand on a 'safe-spot' to avoid certain death. The labyrinth is now changed (due to the gravity's effect on the crates) and the player must in a slightly different way than before advance in the room, only to find it rotating again and the player finishes the room upside down and enters the engine room with the floor as the ceiling.
+
+_Assets for cargo hold_: Crate, crane/lift, control panel, grappable airvent, 'destroyable object' door, window, walway, lamps/lightsource.
+
+== Analogue Prototype ==
+
+===Rotation-learning cargo room 1.===
+
+The player is situated in a room with a locked door, a control panel on a broken elevated walkway. The room is tilting back and forth with fixed time intervals. 
+
+The player must place himself at the end of the broken walkway and when the rotation allows it he can walk up the walkway and thereby access the control panel this opening the door.
+
+Learning goals: doors can be locked, buttons can activate doors and that some areas are only accessible by utilizing the ‘fixed rotation’. 
+
+===Rotation-learning cargo room 2===
+Crate-push
+
+The player enters a room where a big crate is located on a crane and a control panel at a point. The room is (like before) tilting like a seesaw and when the player presses the button the crate falls down and when the room tilts the crate slides to the end of the wall, smashing a small object.
+
+The player must push the crate on a lowered slide in the floor, resulting in, when the room is tilting the crate will open the door, allowing the player to proceed.
+
+Learning goals: Using objects together with the rotation to overcome challenges and further familiarize the player with the rotation-based puzzles.
+
+
+=== Engine Room === 
+
+http://fall-of-the-leviathan.googlecode.com/files/Engine%20room.jpg
+
+The engine room continues from the tutorial area corridor into room A where the room exit is visible from the beginning of the room. Room A has a door on its right that is closed/blocked (leads to the upper corridor, accessible only from the other side), and a staircase down. Going down the staircase will let the player into the furnace corridor; the player cannot walk straight to the exit due to wreckages blocking the path.
+
+Furnace Corridor:
+
+-	A corridor with furnaces on both walls.
+
+-	When the player enters, the corridor slowly starts to rotate around 35-50 degrees on the axis of the corridor path, so that the furnaces begin to drop embers and hot coal down. The rotation moves fast (around 0.5 seconds), but stays/lingers in its final state for 2-3 seconds before going to the opposite side (same parameters). This continues until the player reaches the ladder/staircase at the end of the corridor, where the default rotation sets in.
+After the ladder/staircase, the player finds himself in the upper corridor, next to the engine room. In the engine room, a switch will open the exit in room A (engine room has an unbreakable window to room A, so that the player sees the response of the button to the door), and at the same time the lower corridor gets flooded by embers/hot coal, making it impossible to backtrack. Instead, the player has to walk the upper corridor.
+
+Upper Corridor:
+
+-	A corridor with pipes going parallel with the walls.
+
+-	Pipes have openings that blow steam through the air, making them impassable. A single crate that is too heavy to move for the player (but can be moved by rotation) is available to the player. The corridor rotates on the axis of the walls, slowly pushing the crate down the corridor path. Rotation moves slow (around 1.5 seconds), and lingers for 3 seconds before going back to default rotation. As an addition, opposite rotation may set in once or twice. The player has to use the crate to dodge steam outlets on either side of the corridor (meaning the crate blocks off/disperses steam damage, but only for as long as the crate goes past the steam outlet).
+
+
+=== Technical corridor ===
+
+An addition to the engine room. Some sort of gas/fuel pipe corridor with floating debris could be an interesting challenge. TBA
+
+== Middle deck ==
+----
+
+=== Crew Quarters ===
+Coming soon.
+
+=== Passenger Section ===
+Lots of seats/tables – this could be an interesting crawling section if the ship is in vertical (freefall section).
+
+A sketch idea for this section would be a vertical drop sequence where the ship is in freefall. The player must navigate down through the passenger seats and enter the cockpit (which could be a challenge as well) in order to correct the airships course.
+
+=== Bridge (Cockpit) ===
+
+At this moment the cockpit is more a cinematic experience where have a first class view to his (and the ships) destruction if he doesn't adjust the couse in time.
+Also it's a stairway to the captains cabin and connection to the upper deck.
+
+escape pod section
+
+Possible end-game state where the player finds the last of the escape pods which he needs to escape the crashing airship alive.
+
+== Upper Deck ==
+----
+
+=== Overview ===
+
+http://fall-of-the-leviathan.googlecode.com/files/upperdeck.png
+
+This entire section is designed as a loop (see below). The point for the player is simply to navigate from the Captain's Cabin (where the valuable object surprise will happen) to the end of the level (which is yet to be designed - need escape pods layout). Given that it is a loop, the player will be mostly familiar with the entire map, as the end is very close to the beginning of the map.
+
+Keep in mind this is a first iteration, and that significant additions could become a reality (such as added first class compartments after the ballroom). Layout sections may differ in scale.
+
+==== LEGEND ====
+
+Red Line: The shortest player route. This route does not assume events transpire in any way, and as such is more useful as a guiding tool for the designer rather than a factual route.
+
+Green Area: Encounter. This ranges from a cinematic event to a puzzle, to a mix between them.
+
+=== Ballroom ===
+
+Puzzle Encounter - TBA
+
+=== 1st Class ===
+
+Layout to be determined - TBA
+
+=== Observation Deck ===
+
+As the player enters the area, lightning strikes the hull, causing heavy objects inside the room to the right to break the windows, and consequently destroy parts of the railing on their way off the ship. 
+
+Murphy has to manage himself across by holding onto either side while the ship stabilizes to either side. In a short random interval, lightning strikes again, causing a destabilization again. As Murphy progresses through the area, this effect will continue; and as the windows are passed, more objects may come through, and will leave Murphy vulnerable in his static position.
+
+Close-up image TBA
+
+=== Captain's Cabin ===
+
+Valuable object surprise - TBA
+
+== Exterior of ship ==
+----
+
+Hull 
+
+wings
+
+propellers
+
+== References ==
+
+[https://developer.valvesoftware.com/wiki/Bounce_(level_design) Bounce]
+
+[https://developer.valvesoftware.com/wiki/Loops_(level_design) Loop]
+
+[https://developer.valvesoftware.com/wiki/Color_Theory_in_Level_Design Color Theory]
+
+[https://developer.valvesoftware.com/wiki/Level_Flow Flow]
+
+[https://developer.valvesoftware.com/wiki/Single-Player_Mapping_Tips Tips for SP]

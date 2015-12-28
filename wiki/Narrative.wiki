@@ -1,0 +1,10 @@
+#summary Backstory/info about character and setting
+
+= Biography: Murphy =
+
+||Full Name || Frank Murphy ||
+||Age || 31 ||
+||Place of Birth || Columbia, USA ||
+||Date of Birth || Jun 12th, 1886 ||
+||Synopsis || Renowned thief, reputed to be efficient as a contract for various black market operatives and collectors around the world. ||
+|| Description || First details about the suspect were discovered 6 years prior to the maiden voyage of the Leviathan. Little is known barring the fact that the suspect has been rumored to be involved in high profile burglaries for at least one decade, though no concrete evidence has ever pinned the suspect as being involved in any crime. Information about the suspect has been gathered mostly through black market sources. According to these sources the suspect always works alone, and only accepts jobs through certain proxy agents, whose identities remain unknown. Suspect reputed to have or mimic upper class behaviourisms as well as a calm demeanor, and has displayed the ability to meld into high profile social gatherings without difficulty. Upon arrest the suspect did not resist and followed officers calmly. Suspect chose not to speak in his defense and is currently being held in a make-shift cell near the cargo hold of the Leviathan.||

@@ -1,0 +1,17 @@
+== Milestone Phases ==
+
+=== Conceptualization ===
+
+First phase of game development: Conceptual ideas for the game. Discussion of what the game should be and which mechanics should be included.
+
+=== Pre-Production ===
+
+Initial artistic concepts, risk/time assessment of game as well as for the group members and development strategy and basic game mechanics
+
+=== Production ===
+
+Production for all members, supervised by Game Designer and Project Manager.
+
+=== Post-Production/Playtesting ===
+
+Minor changes in design in accordance to player feedback, bug fixes.

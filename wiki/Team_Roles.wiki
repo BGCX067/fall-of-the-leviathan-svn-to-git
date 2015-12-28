@@ -1,0 +1,25 @@
+#summary Team roles and responsibilities are listed here.
+
+= Team Roles =
+
+All team roles and responsibilities are listed here, as well as assigned to each individual member.
+
+== Programmer Group ==
+|| Role || Member(s) || Description ||
+|| Lead Programmer || Jannek Egeskov Kristensen || The lead programmer is responsible for delegating tasks among the programmer group, as well as verification of tasks concerning programming. This in addition to the regular programming tasks. ||
+|| Programmer || Andrei Livadariu, Lasse Honnens de Litchenberg || Responsible for creating functionality and the technical part of the design mechanics. Minimal work on pipelines for art/design may be required. ||
+
+== Design Group ==
+
+|| Role || Member(s) || Description ||
+|| Game Designer || Valentin T. Scherfig || The Game Designer is responsible for creating the game design document, and keeping it as close as possible to the team's vision. Responsible for verifying design features implemented, both analog and digital. Responsible for creating design prototypes. Responsible for puzzle design. Responsible for user experience and interface. ||
+|| Project Manager || Martin Colith || Responsible for keeping the overview of the entire team, making sure that tasks are delegated to the right people, as well as managing verification processes. Responsible for the creation of iterations and deadlines. ||
+|| Level Designer || Valentin T. Scherfig, Martin Colith || Responsible for creating layouts, prototyping layouts and creating detailed 3D environments, as well as minor scripting of level events and puzzles. ||
+
+== Art Group ==
+
+|| Role || Member(s) || Description ||
+|| Art Director || Nina Croitoru || Responsible for creating the visual style and direction of the game, as well as creating color schemes for all layouts by level designers, and creating the mood board necessary for artists to envision the 3D environment. Responsible for creating asset lists for the 3D artist. Responsible for all art verification. ||
+|| 2D Artist || Nina Croitoru || Responsible for creating textures in accordance to the asset list presented by the Art Director. Responsible for creating the necessary concept art for level designers to envision the 3D environment. ||
+|| 3D Artist || Andreas Marius Wallin || Responsible for creating assets in accordance to the asset list created by the Art Director. Responsible for working with the programmer group in order to solve difficulties with pipelines and animations. ||
+|| Sound Manager || Lasse Honnens de Lichtenberg || Responsible for creating the necessary soundscapes (area reverbs), finding or creating the necessary sounds and music. Responsible for communicating sound choices the the Art Director. ||

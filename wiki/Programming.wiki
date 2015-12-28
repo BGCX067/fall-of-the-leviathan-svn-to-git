@@ -1,0 +1,38 @@
+#techie stuff
+
+= Guidelines =
+ # every constant variable must be public for us to change them run-time.
+ # one behavior per script (e.g. grabbable in one script).
+
+= High Level Mechanics =
+ * Grabbing onto ledges
+   The player can grab onto ledges or other objects that protrude from walls. To perform this action, the player must look at the respective object and press an action key. The character will reach out and grab it using his hands or, if he is farther away, his chain. This will be the main mechanic of the game. To climb, the player needs to grab ledge after ledge while looking up. We believe that such a mechanic will provide cinematic immersion. The intention is to create a wide array of grabbable objects to provide interactivity and ease of navigation through the level. Whether or not it should be challenging to properly aim and grab remains to be decided by playtesting.
+ * Interacting with levers and buttons
+   The player can interact with such objects to control puzzles or complete objectives.
+ * Jumping
+   Standard jumping mechanics. Jumping while standing will allow the player to climb, but he needs to grab the ledge that he's jumping towards to properly hold on to it. If the player is holding onto a wall, jumping will make him propel in the direction he's facing. In this situation, grabbing the next ledge should be automatic, as it will probably be very hard to aim properly. This mechanic needs playtesting.
+ * Ship rotation
+   Throughout the game, the ship will rotate or shake, altering the whole environment. Because objects have physics enabled, the player will need to move through the level while avoiding the falling debris. He will also have to hold on to objects and climb slowly when the ship is turned at extreme angles. We envision levels where the player needs to observe the way the objects move, and cleverly manipulate them in order to progress. The movement of the ship will be scripted, with each level (or room) adjusting it to fit the objective.
+ * Triggered events i.e. Windows breaking and stuff blowing up
+   Scripting will play a large part in developing the game, as through this method we will add cinematic intensity to the player experience. Such events will be triggered as the player progresses through the levels, serving as a plot device or simply to enhance the atmosphere.
+ * Grabbing hooks and wires with the chain (tbd)
+   The player can use his chain to hang on to hooks, or to slide down ziplines. This is a mechanic that we feel is necessary to playtest because it is difficult to get right. In the level design there could be cranes that the player needs to hang on to as they rotate. Also, the ziplines could provide a method to transport the player further in the level without giving him the opportunity to return (forcing him to progress).
+ * Varying gravity - none in some levels
+   Because the ship is crashing, we expect that there will be a free-fall situation in which the player will be essentially suspended in mid-air. As we envisioned it, he would have to grab objects and pull himself towards them to move around the level. Apart from this situation, gravity will still play an important part, because of the physics and the ship rotation (as mentioned earlier).
+
+= Needed behaviour scripts =
+ # behavior script for rooms. taking final (x,y,z)-angle as input and length of rotation (in seconds). -> rotations as a list of keypoints (angles, duration). //lasse
+ # moving around script -> no-grav/swimming-in-air -> crouch / jump -> (speed depending on angles vs running) (mouse look is done)... //andrei
+ # implementation of grabbing (hinge?) / (angle tests -> drop from object if angle > given amount). //jannek
+ # ^control mapping (two hands individually? by pressing a button). //(lasse)
+ # (animation handling). 
+ # (chain-slide-implementation (laters)).
+ # button interaction and related events.
+
+= Interaction mechanics - ideas =
+*recognize possible actions within reach.*
+  * find hit point from centre of view direction.
+  * trigger collider as a larger bounding box.  - _(small objects can be hard to center upon)._
+  * cone (with public angle) to determine object within reach.
+  * recognize grabbable edges.
+  

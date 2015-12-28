@@ -1,0 +1,74 @@
+= Prototyping =
+
+This documents the prototyping for both the analogue and digital prototypes of the game.
+
+==Analogue Prototype ==
+
+===Room 1 ===
+The player is in a small room with a locked door, a crate and a air-vent up high on the wall.
+
+The player must learn how to walk around the room. Realizing he cannot interact with the door (it's locked) - but he can push the crate. He will push the crate to the wall with the air-vent. Jump up on the crate and from there be able to jump up to the air-vent - grab on to it and crawl into the next room.
+
+_Learning goals_: The player will learn how to move around in the room, learn how to interact with certain objects (move crates around) and jump, grab and pull body.
+
+_Playtest results_: the player had no problems figuring out how to interact with the crate and use it to get up to the air-vent.
+===Rotation-learning cargo room 1===
+
+The player is situated in a room with a locked door, a control panel on a broken elevated walkway. The room is tilting back and forth with fixed time intervals. 
+The player must place himself at the end of the broken walkway and when the rotation allows it he can walk up the walkway and thereby access the control panel this opening the door.
+
+_Learning goals_: doors can be locked, buttons can activate doors and that some areas are only accessible by utilizing the ‘fixed rotation’. 
+
+_Playtest results_: Some playtesters had minor problems here figuring out what to do but all did eventually use the rotation to get access to the control panel and thereby solving the puzzle.
+
+===Rotation-learning cargo room 2===
+
+The player enters a room where a big crate is located on a crane and a control panel at a point. The room is (like before) tilting like a seesaw and when the player presses the button the crate falls down and when the room tilts the crate slides to the end of the wall, smashing a small object.
+The player must push the crate on a lowered slide in the floor, resulting in, when the room is tilting the crate will open the door, allowing the player to proceed.
+
+_Learning goals_: Using objects together with the rotation to overcome challenges and further familiarize the player with the rotation-based puzzles.
+
+_Playtest results_: Like before. All players did eventually figure out how to solve the puzzle and use the rotation together with physical objects to complete the challenge.
+
+===Final comments regarding playtest of analogue prototype===
+The playtesting was a success. All playtesters completed the challenges in the prototype and none did have significant problems in solving those. The design problems that arouse were re-designed and adjusted.
+
+
+== Digital Prototype ==
+
+The digital prototype will be a coherent digitalized version of the analogue prototypes with the rooms in final size and all the basic game mechanics and controls working.
+
+At this moment we have a room with gravity, walk and jump mechanics and interact with button mechanic and another room with a slight rotation. Second room, however is a bit problematic because of the coding regarding the rotation.
+
+From this digital prototype we expect to have a working level with the finalized game mechanics and gameplay. The prototype will be used for iteration and ajustement to the gameplay, the level design and the flow of the game.
+
+
+===Digital Prototype===
+
+What do the digital prototype include:
+
+-	full size prototype version of the tutorial level of the game'
+
+-	3 rooms + corridors/air vents. 1 start room, one vent between those and two cargo rooms.
+
+-	All the puzzles and the learning curve for the mechanics, tied to the challenges in those rooms.
+
+First room: Prison start area (described in Level Design + drawing layout) – small room with a locked door, a movable crate and a air vent up high on one of the walls.
+
+Second room: Cargo hold (described in Level design + analogue prototype)
+Bigger room with an airvent (entry point), a broken walkway with a console on, a locked (but this time unlockable) door.
+
+Third room:
+Same size as before, this room contains a console, a crane/stapeling device with a big reinforced crate on the claw, a destroyable object and a stuck door. (not locked but needs something heavy to open it.
+
+What do we expect to learn from this digital prototype
+
+-	how the mechanics function in praxis.
+
+-	The adjustments of the mechanics – how fast you walk, how high you can jump, how to climb, crawl etc.
+
+-	The difficulty of the challenges and the effectiveness of the learning curve.
+
+-	The general feel of the gameplay.
+
+-	The way we communicate the way the game is played – how we bridge the gulf of execution.

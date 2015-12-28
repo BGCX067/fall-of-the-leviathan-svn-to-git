@@ -1,0 +1,3 @@
+= Design Document =
+
+EVERYTHING ABOUT GAME GOES HERE!

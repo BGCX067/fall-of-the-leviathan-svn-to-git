@@ -1,0 +1,7 @@
+0-33 - begin walk
+33-63 - walk
+63-78 - begin crouch/end crouch
+78-108 - crouch
+133-168 - begin run
+168-198 - run
+198-243 -end run

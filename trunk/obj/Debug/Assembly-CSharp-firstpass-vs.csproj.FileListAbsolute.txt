@@ -1,0 +1,16 @@
+C:\Users\Lasse\Documents\ITU-COURSES[8SEM]\fall-of-the-leviathan\Temp\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Lasse\Documents\ITU-COURSES[8SEM]\fall-of-the-leviathan\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\Lasse\Documents\ITU-COURSES[8SEM]\fall-of-the-leviathan\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Lasse\Documents\ITU-COURSES[8SEM]\fall-of-the-leviathan\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Lasse\Documents\ITU-COURSES[8SEM]\fall-of-the-leviathan\Temp\bin\Debug\nunit.framework.dll
+C:\Users\Lasse\Documents\ITU-COURSES[8SEM]\fall-of-the-leviathan\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Lasse\Documents\ITU-COURSES[8SEM]\fall-of-the-leviathan\obj\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Lasse\Documents\ITU-COURSES[8SEM]\fall-of-the-leviathan\obj\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\Lasse\Documents\fall-of-the-leviathan\Temp\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Lasse\Documents\fall-of-the-leviathan\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\Lasse\Documents\fall-of-the-leviathan\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Lasse\Documents\fall-of-the-leviathan\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Lasse\Documents\fall-of-the-leviathan\Temp\bin\Debug\nunit.framework.dll
+C:\Users\Lasse\Documents\fall-of-the-leviathan\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Lasse\Documents\fall-of-the-leviathan\obj\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Lasse\Documents\fall-of-the-leviathan\obj\Debug\Assembly-CSharp-firstpass.pdb
